@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border:0;
+}
+
+
+.navbar-brand {
+  padding-top:;
+}
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p {
+  color: white;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span {
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border:1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+
+h1 {
+  font-style:italic;
+    text-align: center;
+}
+
+body {
+  background-color:#76ace3;
+}
+
+p{
+  border: 1px solid black;
+  font-size:16px;
+    background-color:gray;
+    padding:20px;
+    width: 99%;
+
+}
+div{
+  font-style:italic;
+    text-align: center;
+    font-size:25px;
+
+}
+
+#top{
+  margin-top:15px;
+}
+
+
+#wrap {
+  width:100%;
+  margin:auto;
+}
+
+#p2 {
+    
+  float:right;
+  
+}
+
+#p1 {
+  
+  float:right;
+  
+}
+
+#p3 {
+  
+  float:right;
+
+}
+
+h3 {
+  
+}
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background-color:white;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+}
